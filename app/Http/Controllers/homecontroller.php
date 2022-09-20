@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
- use app\Train;
+ use App\Train;
 
 class homecontroller extends Controller
 {
