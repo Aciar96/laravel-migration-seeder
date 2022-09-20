@@ -3,18 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
- use App\Train;
-
-class homecontroller extends Controller
+use App\Train;
+class HomeController extends Controller
 {
-   
-    
-    public function index(){
-       $trains = Train::all();
-       
-        return view('home');
-
+    public function index() {
+     return view('home');
     }
 }
-
