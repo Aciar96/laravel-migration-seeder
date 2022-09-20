@@ -1,7 +1,9 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use Faker\Generator as Faker;
 
+use App\Train;
 class TrainTableSeeder extends Seeder
 {
     /**
@@ -22,6 +24,8 @@ class TrainTableSeeder extends Seeder
         $newtrain->numero_carrozze = $faker->randomNumber(1, true);
         $newtrain->in_orario = $faker->boolean();
         $newtrain->cancellato = $faker->boolean();
+
+
     }  
     }
 }
